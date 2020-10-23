@@ -14,7 +14,7 @@ namespace TestLampadina
             risposta = int.Parse(Console.ReadLine());
             if (risposta == 1)
             {
-                Console.WriteLine("Quanti click vuoi fare?");
+                Console.WriteLine("Quanti click vuoi fare? ");
                 int n = int.Parse(Console.ReadLine());
                 for (int j = 0; j < n; j++)
                 {
